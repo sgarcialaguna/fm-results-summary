@@ -8,8 +8,11 @@ import {
 } from 'unocss'
 
 export default defineConfig({
-    shortcuts: [
-        // ...
+    shortcuts: [{
+        'summary-item': 'flex rounded-4 p-4 items-center',
+        'half-card': 'flex-1 w-35ch grid content-start text-center rounded-8 p-8',
+        'circle': 'rounded-50% w-12rem h-12rem flex flex-col items-center justify-center mx-a mb-4'
+    },
     ],
     theme: {
         colors: {
@@ -27,8 +30,6 @@ export default defineConfig({
             accent2: 'hsl(39, 100%, 56%)',
             accent3: 'hsl(166, 100%, 37%)',
             accent4: 'hsl(234, 85%, 45%)',
-
-
         }
     },
     presets: [
