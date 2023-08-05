@@ -10,7 +10,7 @@ import {
 export default defineConfig({
     shortcuts: [{
         'summary-item': 'flex rounded-4 p-4 items-center',
-        'half-card': 'flex-1 w-35ch grid content-start text-center rounded-8 p-8',
+        'half-card': 'flex-1 w-35ch grid content-start rounded-8 p-8',
         'circle': 'rounded-50% w-12rem h-12rem flex flex-col items-center justify-center mx-a mb-4'
     },
     ],
